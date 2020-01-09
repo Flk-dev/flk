@@ -1,0 +1,126 @@
+/*   
+Theme Name: ND
+Theme URI:
+Description:
+Author: Filipp Mashukov
+Author URI: 
+*/
+/* MAIN */
+* {
+	outline: none;
+}
+body {}
+a {
+	text-decoration: none !important;
+	transition: all .3s;
+}
+a:hover {color: inherit;}
+img {
+	max-width: 100%;
+	height: auto;
+}
+
+
+.in {padding: 40px 0 25px;}
+.block__title {
+	font-size: 20px;
+	font-weight: bold;
+	margin: 0 0 25px;
+}
+
+/* CITY */
+.city_item {
+	margin-bottom: 15px;
+	display: block;
+	color: #000;
+}
+.city_item-image img {
+	height: 170px;
+	object-fit: cover;
+	width: 100%;
+}
+.city_item-title {
+	font-weight: bold;
+	font-size: 16px;
+	margin: 10px 0 7px;
+}
+.city_item-more {
+	display: inline-block;
+	padding: 7px 25px;
+	text-transform: uppercase;
+	background: #24d2c2;
+	color: #fff;
+}
+.city_item:hover .city_item-more {background:}
+
+/* 
+Сделал 2 разных класса, так как предполагается, что эти 2 элемента будут разные по стилю
+ND */
+.nd_item {
+	margin-bottom: 15px;
+	display: block;
+	color: #000;
+}
+.nd_item-image img {
+	height: 170px;
+	object-fit: cover;
+	width: 100%;
+}
+.nd_item-title {
+	font-weight: bold;
+	font-size: 16px;
+	margin: 10px 0 7px;
+}
+.nd_item-more {
+	display: inline-block;
+	padding: 7px 25px;
+	text-transform: uppercase;
+	background: #24d2c2;
+	color: #fff;
+}
+.nd_item:hover .nd_item-more {background:}
+
+.nd_app {margin: 15px 0;}
+.nd_app b {display: block;}
+
+.nd_gallery img {
+	width: 25%;
+	display: inline-block;
+	vertical-align: middle;
+	margin-right: 15px;
+}
+
+.nd_form {
+	max-width: 60%;
+	margin: 0 auto;
+}
+.nd_form .form-row {margin: 0 0 20px; position: relative;}
+.nd_form input,
+.nd_form select {
+	width: 100%;
+	height: 46px;
+	border: 1px solid #dbdada;
+	padding: 0 15px;
+}
+.nd_form button {
+	display: inline-block;
+    padding: 11px 35px;
+    text-transform: uppercase;
+    background: #24d2c2;
+    color: #fff;
+    border: none;
+}
+
+input.error,
+select.error  {border-color: #e17575 !important;}
+
+.umessage {
+	display: block;
+	text-align: center;
+	padding: 15px 25px;
+	display: none;
+	color: #fff;
+	margin: 15px 0 0;
+}
+.umessage.success {background: #3fb854;}
+.umessage.fail {background: #e17575;}
